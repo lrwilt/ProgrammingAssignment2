@@ -16,7 +16,7 @@ startMatrix <- matrix(1:4, 2)
 
 makeCacheMatrix <- function(x = matrix()) {
     m = NULL
-    set <- function(y) { ##allows for modifying the starting function
+    set <- function(y) { ##allows for modifying the starting matrix
         x <<- y
         m <<- NULL
     }
